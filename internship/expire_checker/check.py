@@ -58,9 +58,6 @@ def main():
     data = []
 
     # Read domains from the file and fetch SSL expiry dates
-    data = []
-
-    # Read domains from the file and fetch SSL expiry dates
     with open(domains_file, 'r') as file:
         start_time_loop = time.perf_counter()
         reader = csv.reader(file)

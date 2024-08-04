@@ -5,8 +5,7 @@ import sys
 import time
 
 
-DOMAINS_PATH = 'domain_SSL/SSL_domainler.txt'
-#DOMAINS_PATH = sys.argv[1]
+DOMAINS_PATH = "domains.txt"            #   DOMAINS_PATH = sys.argv[1]
 OUTPUT_PATH = 'domain_expiry_info.csv'
 
 

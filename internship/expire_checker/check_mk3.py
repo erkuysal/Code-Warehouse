@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 
-DOMAINS_PATH = 'domain_SSL/SSL_domainler.txt'
+DOMAINS_PATH = "domains.txt"
 
 
 def fetch_ssl_expiry_date(domain):
