@@ -169,3 +169,5 @@ $RECYCLE.BIN/
 *.ipr
 
 ./Assets
+*Assets/
+Assets/
