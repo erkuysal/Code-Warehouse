@@ -1,0 +1,14 @@
+{
+    "greetings": {
+        "patterns": ["hello", "hi", "good morning", "good evening", "hey"],
+        "responses": ["Hello!", "Hi there!", "Good day!", "Hello! How can I assist you today?"]
+    },
+    "product_info": {
+        "patterns": ["Tell me about [Product]", "What are the features of [Product]?", "Give me information on [Product]"],
+        "responses": ["[Product] is an excellent choice. It has features like..."]
+    },
+    "complaint": {
+        "patterns": ["I have a complaint", "I want to report an issue", "There is a problem with my order"],
+        "responses": ["I'm sorry to hear that. Can you please provide more details?", "We apologize for the inconvenience. Please describe the issue."]
+    }
+}
