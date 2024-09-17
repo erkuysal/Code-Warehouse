@@ -23,13 +23,15 @@ class DPoS:
 
 
 # Example usage
-delegates = [Delegate(i) for i in range(10)]
+delegates = [Delegate(i) for i in range(3)]
+rand = random.uniform(1,3)
+print(int(rand))
 dpos = DPoS(delegates)
 # Simulating voting
-# dpos.vote_for_delegate(1, 2)
-# dpos.vote_for_delegate(2, 2)
-# dpos.vote_for_delegate(3, 3)
-# dpos.vote_for_delegate(4, 2)
+dpos.vote_for_delegate(1, rand)
+dpos.vote_for_delegate(2, rand)
+dpos.vote_for_delegate(3, rand)
+dpos.vote_for_delegate(4, rand)
 
 
 elected_delegate = dpos.elect_delegate()
