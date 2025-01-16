@@ -171,3 +171,7 @@ $RECYCLE.BIN/
 ./Assets
 *Assets/
 Assets/
+
+Excluded
+./Excluded
+*Excluded/
